@@ -90,7 +90,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "serve"
+    "serve": "serve",
+    "build": "esbuild index.js --bundle --minify --outfile=out.min.js"
   },
   "repository": {
     "type": "git",
